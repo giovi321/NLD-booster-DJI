@@ -1,8 +1,7 @@
 # Intro
 My approach to installing the NLD booster board on a DJI RC2. Should work almost the same on the DJI RC.
 
-NOTE: i am not going to explain how to disassemble the remote, you can easily find video on youtube such as those:
-- Instructions for the DJI RC, that works also for RC2: https://youtu.be/dhpUh3fc1Z8?feature=shared
+NOTE: i am not going to explain how to disassemble the remote, you can easily find video on youtube such as this (this is a video for the RC but it works also for the RC2): https://youtu.be/dhpUh3fc1Z8
 
 # Tools needed (bare minimum)
 - A decent soldering iron with a thin tip and capable of reaching 370 celsius
