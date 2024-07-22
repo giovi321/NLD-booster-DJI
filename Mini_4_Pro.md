@@ -48,3 +48,4 @@ Once you have taken the drone apart, you need to follow these steps
 9) glue with the siliconic glue the booster board to the piece of aluminum between the GPS antenna and the obstacle avoidance sustem sensors cluster
 ![338014191-0cf86dd7-0990-4a75-bb7f-b0593a43f2f9](https://github.com/user-attachments/assets/fe16bee5-c781-47db-b6e7-0b92493f2129)
 ![338014202-ce52ea50-1f77-40a8-8729-f0c561dd3514](https://github.com/user-attachments/assets/c3c859e9-9023-474b-a12a-b78a3b6776f4)
+NOTE: you cannot see it from the picture, but I did install a thin heatsink (the one you get from NLD) below the booster board.
