@@ -11,9 +11,12 @@ NOTE: i am not going to explain how to disassemble the drone and the remote, you
 - Multimeter to check for polarity and connections
 - Phillips screwdrivers
 - a sharp blade to scrape the PCB mask off the contacts
-- some sandpaper and a little tool to stick the sandpaper to like this one:
-[pic unavailable for now]
-- Optional but highly recommended: some cheap tools to open electronic devices such as these: 
+- 120 grit sandpaper
+- A metal prying tool to stick the sandpaper to like this one:
+- 
+![immagine](https://github.com/user-attachments/assets/a5628589-9d4c-4091-a76e-7ce5e8a4b9c8)
+- Optional but highly recommended: some cheap tools to open electronic devices such as these:
+
 ![338014083-f758fa75-01d6-4dda-90e6-f5000c77d285](https://github.com/user-attachments/assets/3a104caa-c078-41a8-82ae-4bfe9642fcd5)
 
 # Additional components needed not sold by NLD
@@ -33,15 +36,19 @@ Once you have taken the drone apart, you need to follow these steps
 
 ## Physical modifications to the drone
 Using a cutter, cut a square window on the top of the drone (already disassembled) with the same size of the heatsink. 
+
 ![immagine](https://github.com/user-attachments/assets/4a1d6f11-0854-4d29-b4c1-a749dd821f3f)
 
 I used the tool in the picture below with some 120 grit sandpaper attached to the tip to finely sand the edges and get the right size
 ![immagine](https://github.com/user-attachments/assets/a5628589-9d4c-4091-a76e-7ce5e8a4b9c8)
 
 Stick the heatsink to the booster board and stick the booster board to the drone plastic cover using siliconic glue
+
+
 ![immagine](https://github.com/user-attachments/assets/53906b2d-94e9-4407-aa70-8838d3d70f40)
 
 This should be the result
+
 ![immagine](https://github.com/user-attachments/assets/9dfbc7b9-6510-49aa-923b-9ef517b7b28a)
 
 Stick the step-down board to the plastic shell of the drone in the back: be careful, where I stuck it in the picture below is not ideal, so you can put it somewhere else, BUT: do not put it on top of the GPS antenna (the large piece highlited in red in the pic below)
