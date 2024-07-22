@@ -62,6 +62,7 @@ After some weeks of testing, I have tried to install an additional fan to improv
 The fan I have chosen is a 1703 blower fan produced by SUNON (you can find it on AliExpress) together with a simple 15x15x4mm heatsink. It's not cheap but it's perfect for the job:
 1) The size fits perfectly
 2) The power consumption is only 35mA
+
 ![immagine](https://github.com/user-attachments/assets/49606fb3-6f73-40b4-97c7-34e063005d63)
 
 I have designed a very simple 3D printable support for the fan which is not strictly necessary but it simplifies the installation process. I have printed it in TPU as it is more flexible and does not requires strict tolerances when closing the remote.
@@ -70,17 +71,18 @@ Here is the file: https://github.com/giovi321/NLD-booster-DJI/blob/main/Fan%20su
 Installation process.
 1) Install the support by removing the screw that holds the original fan and heatsink in place and screwing everything back together
 2) Use some cyanoacrylate (superglue) to stick the fan to the 3D printed support
+
 ![immagine](https://github.com/user-attachments/assets/035c136f-be91-4494-b592-450a0823810c)
 
-3) Apply two strips of siliconic glue to the heatsink to support the booster board (the pressure of the back of the remote will keep it in place)
+4) Apply two strips of siliconic glue to the heatsink to support the booster board. We do this for two reasons: keep the booster board a lifted from the plastic and the heatsink to ease airflow and to secure it in place by simply using the pressure of the back cover of the RC (when the remote is closed up again).
 ![immagine](https://github.com/user-attachments/assets/f78de367-cee7-4902-9fcb-1bfe56799720)
 
-4) Stick the heatsink to the back of the booster board, more specifically stick it to the top-left most corner
+5) Stick the heatsink to the back of the booster board, more specifically stick it to the top-left most corner
 ![immagine](https://github.com/user-attachments/assets/51fc7ce0-e61c-4bdb-8cc4-44f23ebba711)
 
-5) Connect the ground (black wire) of the fan to the ground output of the step-up converter
-6) Connect the 3.3vcc (red wire) of the fan to the EN pin of the step-up converter (yes, I know that we are getting the power of the fan from a signal line, but this is ininfluential as the power consumption is only 35mA)
-7) Place the booster board on top of the two siliconic glue strips and close up the remote
+6) Connect the ground (black wire) of the fan to the ground output of the step-up converter
+7) Connect the 3.3vcc (red wire) of the fan to the EN pin of the step-up converter (yes, I know that we are getting the power of the fan from a signal line, but this is ininfluential as the power consumption is only 35mA)
+8) Place the booster board on top of the two siliconic glue strips and close up the remote
 
 ![immagine](https://github.com/user-attachments/assets/f9fc1608-46f9-4fcd-8e62-9ebfd2d92c7b)
 
