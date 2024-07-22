@@ -1,7 +1,7 @@
 # Intro
-My approach to installing the NLD booster board on a DJI Mini 2.
+My approach to installing the NLD booster board on a DJI RC-N1.
 
-NOTE: i am not going to explain how to disassemble the drone and the remote, you can easily find video on youtube such as this: https://www.youtube.com/watch?v=C_9mIduaoMY
+NOTE: i am not going to explain how to disassemble the RC, you can easily find video on youtube such as this: https://www.youtube.com/watch?v=pexzuVWaB08
 
 # Tools needed (bare minimum)
 - A decent soldering iron with a thin tip and capable of reaching 400 celsius
