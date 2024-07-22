@@ -1,7 +1,7 @@
 # Intro
 My approach to installing the NLD booster board on a DJI Mini 4 Pro.
 
-NOTE: i am not going to explain how to disassemble the drone and the remote, you can easily find video on youtube such as this: https://youtu.be/rLTtYpftaGs?feature=shared
+NOTE: i am not going to explain how to disassemble the drone, you can easily find video on youtube such as this: https://youtu.be/rLTtYpftaGs?feature=shared
 
 # Tools needed (bare minimum)
 - A decent soldering iron with a thin tip and capable of reaching 400 celsius
