@@ -4,7 +4,7 @@ My approach to installing the No Limit Dronez booster board for DJI drones and r
 Available guides:
 Remote controllers:
 - [DJI RC2](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC2_and_RC.md) (applicable also to RC)
-- DJI RC-N1 (work in progress)
+- [DJI RC-N1](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC-N1.md)
 
 Drones:
 - DJI Air 3 (work in progress)
