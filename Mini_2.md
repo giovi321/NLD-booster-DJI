@@ -76,4 +76,7 @@ I don't really have pictures but the procedure is the following
 - When you open the drone, you need to remove this long antenna cable and replace it with the new one 15cm long that you bought by routing it in the exact same path through the drone (see the green line in the picture below)
 ![immagine](https://github.com/user-attachments/assets/7f7865cb-b596-47e9-903d-9b92d9eed730)
 
+- Connect the booster board IPEX1 connector marked with the label "ANT" to the grey cable coming from the arm of the drone (which is the antenna)
+- Connect the booster board remanining IPEX1 connector to the core board of the drone using the long cable
+
 NOTE: Make sure that signal cables do not run over or below the booster board as the interference could heavily degrade the signal
