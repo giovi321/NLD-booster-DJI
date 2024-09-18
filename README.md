@@ -7,11 +7,10 @@ Remote controllers:
 - [DJI RC-N1](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC-N1.md)
 
 Drones:
-- DJI Air 3 (work in progress)
+- [DJI Air 3](https://github.com/giovi321/NLD-booster-DJI/blob/main/Air_3.md)
 - [DJI Mini 4 Pro](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_4_Pro.md)
-- DJI Mini 2
-  - [Internal installation](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_2.md)
-  - External installation (work in progress)
+- [DJI Mini 2](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_2.md)
+  - Alternative: external installation (work in progress)
 
 # Some knowledge you should have
 The NLD booster board kit comes with the following content, when ordered for the devices listed in this repository
