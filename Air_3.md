@@ -62,8 +62,8 @@ Once you have taken the drone apart, you need to follow these steps
 - Connect the black ipex cable that came with the booster board to the other connector of the booster board, route it around the board without overlapping it and leave the cable hanging on the side of the drone where the other antenna cables are hanging (basically follow the red line shown in the picture below)
 ![FG001 02_26 137](https://github.com/user-attachments/assets/d8769aa9-58b3-496c-aba3-84160836bcee)
 12) Now you are ready to put the core board back in place:
-- make sure that the signal and antenna cables
-- reconnect all the cables
+- make sure that the signal and antenna cables do not overlap the booster board
+- reconnect all the ribbon cables
 - reconnect all the antenna cables except for the black cable that we plugged in the booster board
 - connect the black ipex cable that came with the booster board to the empty connector on the core board (the one marked as "1" mentioned in the step 11)
 ![foto_no_exif(10)](https://github.com/user-attachments/assets/069fc85e-91e2-48e2-8ec1-605d234bc22a)
