@@ -38,12 +38,13 @@ Once you have taken the drone apart, you need to follow these steps
 6) Identify the battery connectors to which you will be soldering the black and red wire of the step-down module
 - You will need the first and last connector (see picture for polarity: black = negative, red = positive)
 - Using a sharp blade, scratch the connectors to remove the masking from the PCB so that you can solder the wires - it will take quite some time to make the solder stick to those pads, don't over heat it (350 celsius should fine) and if it does not work just keep scraping them with a blade
+- Cover the soldered joints with siliconic glue. In the picture, I did solder the cables and covered them with siliconic glue already before taking the picture.
 ![foto_no_exif(4)](https://github.com/user-attachments/assets/bf16d1da-f116-4c71-8c1c-f1fe4130b839)
-7) Solder the cables connected to the battery connector to the step-down module. Cover the soldered joints with siliconic glue. In the picture, I did solder the cables and covered them with siliconic glue already before taking the picture.
+7) Solder the cables connected to the battery connector to the step-down module
 ![foto_no_exif(5)](https://github.com/user-attachments/assets/0c63f580-1de2-484b-a148-c053f0dd5176)
-8) Optional: in order to protect the drone and improve heat dissipation, you can cut a square piece of metal from one of the disassebly tools mentioned in the "Tools needed" chapter of this text. Stick it with glue to the plastic part of the drone and cover the metal with Kapton tape.
 
 ## Secure the booster and step-down modules
+8) Optional: in order to protect the drone and improve heat dissipation, you can cut a square piece of metal from one of the disassebly tools mentioned in the "Tools needed" chapter of this text. Stick it with glue to the plastic part of the drone and cover the metal with Kapton tape.
 9) Spread some siliconic glue on the part of the drone below the cooling fan like in the picture
 ![foto_no_exif(6)](https://github.com/user-attachments/assets/35575cac-f687-4f05-840f-9f5d7b55a5f5)
 10) Stick the step down module and the booster module on the glue making sure that:
