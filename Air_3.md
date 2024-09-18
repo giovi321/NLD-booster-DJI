@@ -29,15 +29,17 @@ Once you have taken the drone apart, you need to follow these steps
 1) Disassemble the bottom part of the drone and expose the core board. There is no need to disassemble the gimbal
 2) Solder the step-down module to the booster board
 ![](https://github.com/user-attachments/assets/409bc8cc-ae49-412a-9cb9-6c166be928df)
-3) Remove the glue holding the 6 antennas connector in place. I recommend to use some pliers and squeeze the hard glue to gently separate it from the connectors and board. Do not pull as this will damage the connectors. Cover the soldered joints with siliconic glue. In the picture, I did solder the cables and covered them with siliconic glue already before taking the picture.
+3) Remove the glue holding the 6 antennas connector in place. I recommend to use some pliers and squeeze the hard glue to gently separate it from the connectors and board. Do not pull as this will damage the connectors
 ![foto_no_exif(1)](https://github.com/user-attachments/assets/b98966f8-7d5b-4038-8a80-1fef0f7638d7)
 4) Very carefully unplug the connectors using pliers, applying a leverage from underneath the connector
 ![foto_no_exif(2)](https://github.com/user-attachments/assets/c71a6043-26e2-4c75-b22e-184b212492f2)
 5) Remove all the screws on the core board and remove it
 ![foto_no_exif(3)](https://github.com/user-attachments/assets/130bbc12-a3ea-4a15-a42b-aaf43bf2156e)
-6) Identify the battery connectors to which you will be soldering the black and red wire of the step-down module: you will need the first and last connector (see picture for polarity: black = negative, red = positive). Using a sharp blade, scratch the connectors to remove the masking from the PCB so that you can solder the wires - it will take quite some time to make the solder stick to those pads, don't over heat it (350 celsius should fine) and if it does not work just keep scraping them with a blade
+6) Identify the battery connectors to which you will be soldering the black and red wire of the step-down module
+- You will need the first and last connector (see picture for polarity: black = negative, red = positive)
+- Using a sharp blade, scratch the connectors to remove the masking from the PCB so that you can solder the wires - it will take quite some time to make the solder stick to those pads, don't over heat it (350 celsius should fine) and if it does not work just keep scraping them with a blade
 ![foto_no_exif(4)](https://github.com/user-attachments/assets/bf16d1da-f116-4c71-8c1c-f1fe4130b839)
-7) Solder the cables connected to the battery connector to the step-down module
+7) Solder the cables connected to the battery connector to the step-down module. Cover the soldered joints with siliconic glue. In the picture, I did solder the cables and covered them with siliconic glue already before taking the picture.
 ![foto_no_exif(5)](https://github.com/user-attachments/assets/0c63f580-1de2-484b-a148-c053f0dd5176)
 8) Optional: in order to protect the drone and improve heat dissipation, you can cut a square piece of metal from one of the disassebly tools mentioned in the "Tools needed" chapter of this text. Stick it with glue to the plastic part of the drone and cover the metal with Kapton tape.
 
