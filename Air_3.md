@@ -67,3 +67,11 @@ Once you have taken the drone apart, you need to follow these steps
 - reconnect all the antenna cables except for the black cable that we plugged in the booster board
 - connect the black ipex cable that came with the booster board to the empty connector on the core board (the one marked as "1" mentioned in the step 11)
 ![foto_no_exif(10)](https://github.com/user-attachments/assets/069fc85e-91e2-48e2-8ec1-605d234bc22a)
+
+
+# Results
+A quick test with an RF meter suggets that the booster board works excellently well.
+In the picture below you can see:
+- on the left: the signal power from the antenna of the drone that is **IS boosted** (-27.8 dBm)
+- on the right: the signal power from the antenna of the drone that **IS NOT boosted** (-41.2 dBm)
+![Untitled](https://github.com/user-attachments/assets/cc67ea3c-6716-4f4d-85e5-c14075558d40)
