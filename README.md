@@ -1,7 +1,8 @@
 # NLD-booster-DJI
 My approach to installing the No Limit Dronez booster board for DJI drones and remotes
 
-Available guides:
+## Available guides
+
 Remote controllers:
 - [DJI RC2](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC2_and_RC.md) (applicable also to RC)
 - [DJI RC-N1](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC-N1.md)
@@ -12,7 +13,7 @@ Drones:
 - [DJI Mini 2](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_2.md)
   - Alternative: external installation (work in progress)
 
-# Some knowledge you should have
+# Some knowledge you should have before attempting the installation
 The NLD booster board kit comes with the following content, when ordered for the devices listed in this repository
 - 1x booster board for the remote (with IPEX1 connectors)
 - 1x booster board for the drone (with IPEX4 connectors)
