@@ -5,12 +5,15 @@ All cases should be printed in ABS given its higher resistance to high temperatu
 ## Additional components
 All cases need some additional hardware in order to be able to use them:
 - A velcro strap to tie the case to the drone (typically on top of the drone)
+- 2mm thick neoprene strips
+- A long enough female ipex4 to female ipex4 cable (10 or 15 cm should be enough, available on aliexpress)
+
+Plastic cases need the following additional hardware:
 - 4x threaded inserts M2x4x3.2
 - 4x screws M2x6
 - Heatsinks designed for Raspberry Pi (available on [aliexpress](https://www.aliexpress.com/item/1005007485448259.html) or [amazon](https://www.amazon.com/dp/B07YR6M6F6/))
   - 4x heatsinks 14x14mm
   - 1x heatsink 14x9mm
-- 2mm thick neoprene strips
 
 ## Cases available
 ### Plastic case
