@@ -1,6 +1,10 @@
 # NLD-booster-DJI
 My approach to installing the No Limit Dronez booster board for DJI drones and remotes
 
+Did you like the project?
+
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/giovi321)
+
 ## ❗ Disclaimer ❗
 - Before proceeding, you must read the final section of this guide in its entirety
 - I am not affiliated with NoLimitDronez (NLD) or any of its associated entities, this guide is provided purely for informational purposes
