@@ -52,7 +52,7 @@ The procedure is always the same, maybe I show it in different order but the ste
 The content of this repository is licensed under the [WTFPL](http://www.wtfpl.net/).
 
 ```
-Copyright © 2023 giovi321
+Copyright © 2024 giovi321
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
 as published by Sam Hocevar. See the LICENSE file for more details.
