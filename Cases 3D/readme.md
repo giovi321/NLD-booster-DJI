@@ -15,13 +15,16 @@ All cases need some additional hardware in order to be able to use them:
 ## Cases available
 ### Plastic case
 The most basic and simple solution: mostly designed for use with DJI Mini 2, but compatible will all drones.
+
 [Plastic case](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20plastic%20case_v3.stl)
 
 ![immagine](https://github.com/user-attachments/assets/c3276901-b6b7-48af-9ffa-fde8e1c11226)
 
 ### Plastic case with battery
 If you don't want to solder anything to your drone, this is the solution.
+
 [Plastic case with battery](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20plastic%20case%20battery_v1.stl)
+
 Additional components needed:
 - USB type C female connector with breakout board (available on [aliexpress](https://www.aliexpress.com/item/1005004861928502.html))
 - 403040 LiPo 3.7V (at least 500mAh) battery
@@ -31,6 +34,7 @@ Additional components needed:
 ### Aluminum case
 This case is probably the best solution as it is completely waterproof. However, it need to be CNC machined (or 3D printed in metal) which is more expensive.
 This case does not need any heatsink as it is already embedded in the case. However, you'll need thermal paste or glue to attach the board to the case itself.
+
 [Aluminum case](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20aluminum%20case_v2.stl)
 
 ![immagine](https://github.com/user-attachments/assets/0c993181-0589-4907-988d-66ec8918444a)
