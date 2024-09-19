@@ -1,7 +1,11 @@
 # NLD-booster-DJI
 My approach to installing the No Limit Dronez booster board for DJI drones and remotes
 
-Before attempting anything you **MUST** read the last chapter of this page.
+❗ Disclaimer ❗
+- Before proceeding, you must read the final section of this guide in its entirety
+- I am not affiliated with NoLimitDronez (NLD) or any of its associated entities, this guide is provided purely for informational purposes
+- Any modifications or actions you take based on this guide are entirely at your own risk. I hold no responsibility or liability for any damage, legal issues, or safety concerns that may arise from altering or using your devices in any way, including but not limited to hardware or software modifications
+- Ensure that you are fully aware of and comply with all local laws and regulations related to the use and modification of drones and similar devices
 
 ## Available guides
 
@@ -21,7 +25,7 @@ If you don't have space to mount the booster board internally to your drone, you
 
 [3D printable cases for NLD booster board](https://github.com/giovi321/NLD-booster-DJI/tree/main/Cases%203D)
 
-# ❗❗ Some knowledge you should have before attempting the installation
+# ❗ Some knowledge you should have before attempting the installation ❗
 
 **DOs and DON'Ts before the installation:**
 - **DO NOT** power on the booster module without proper cooling (active or passive)
