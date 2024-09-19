@@ -7,6 +7,7 @@ All cases need some additional hardware in order to be able to use them:
 - A velcro strap to tie the case to the drone (typically on top of the drone)
 - 2mm thick neoprene strips
 - A long enough female ipex4 to female ipex4 cable (10 or 15 cm should be enough, available on aliexpress)
+- a tiny bit of silicone to waterproof the tiny holes for the cables
 
 Plastic cases need the following additional hardware:
 - 4x threaded inserts M2x4x3.2
