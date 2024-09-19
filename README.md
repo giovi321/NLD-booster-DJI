@@ -4,11 +4,12 @@ Before attempting anything you **MUST** read the last chapter of this page.
 
 ## Available guides
 
-Remote controllers:
+**Remote controllers**
 - [DJI RC2](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC2_and_RC.md) (applicable also to RC)
 - [DJI RC-N1](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC-N1.md)
 
-Drones:
+
+**Drones**
 - [DJI Air 3](https://github.com/giovi321/NLD-booster-DJI/blob/main/Air_3.md)
 - [DJI Mini 4 Pro](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_4_Pro.md)
 - [DJI Mini 2](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_2.md)
