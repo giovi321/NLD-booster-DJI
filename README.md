@@ -13,6 +13,11 @@ Drones:
 - [DJI Mini 2](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_2.md)
   - Alternative: external installation (work in progress)
 
+## Cases for external installation
+If you don't have space to mount the booster board internally to your drone, you can opt to use one of the cases deigned specifically for this purpose.
+
+[3D printable cases for NLD booster board](https://github.com/giovi321/NLD-booster-DJI/tree/main/Cases%203D)
+
 # Some knowledge you should have before attempting the installation
 The NLD booster board kit comes with the following content, when ordered for the devices listed in this repository
 - 1x booster board for the remote (with IPEX1 connectors)
