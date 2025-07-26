@@ -1,9 +1,6 @@
 # NLD-booster-DJI
 My approach to installing the No Limit Dronez booster board for DJI drones and remotes
 
-Did you like the project?
-
-[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/giovi321)
 
 ## ❗ Disclaimer ❗
 - Before proceeding, you must read the final section of this guide in its entirety
@@ -22,7 +19,6 @@ Did you like the project?
 - [DJI Air 3](https://github.com/giovi321/NLD-booster-DJI/blob/main/Air_3.md)
 - [DJI Mini 4 Pro](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_4_Pro.md)
 - [DJI Mini 2](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_2.md)
-  - Alternative: external installation (work in progress)
 
 ## 3D-printable cases for external installation
 If you don't have space to mount the booster board internally to your drone, you use one of the cases deigned specifically for this purpose.
@@ -33,7 +29,7 @@ If you don't have space to mount the booster board internally to your drone, you
 
 **DOs and DON'Ts before the installation:**
 - **DO NOT** power on the booster module without proper cooling (active or passive)
-  - When the drone is in flight, the airflow cools it down. When you are testing it. When you are testing it, there is absolutely zero cooling (unless you use a fan) and this will burn the module.
+  - When the drone is in flight, the airflow cools it down. When you are testing it, there is absolutely zero cooling (unless you use a fan) and this will burn the module.
 - **DO NOT** power on the module without input or output signal
   - This means that when you test the booster module you MUST connect the antenna (output) and the signal from the drone or remote (input)
 - **DO** insulate all connections and solder joints
@@ -41,7 +37,7 @@ If you don't have space to mount the booster board internally to your drone, you
 - **DO** make sure that you have all the right tools and consumables
   - In the guides it is reported multiple times to use a good quality thermal conductive and electrically insulating glue
 - **DO** be very careful when handling ipex connectors (especially ipex4)
-  - These are extremely fragile and very paiful to replace (if not impossible) 
+  - These are extremely fragile and very paiful to replace
 
 The NLD booster board kit comes with the following content, when ordered for the devices listed in this repository (other drones and remotes might require different connectors)
 - 1x booster board for the remote (with IPEX1 connectors)
