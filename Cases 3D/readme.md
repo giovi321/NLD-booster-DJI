@@ -1,44 +1,55 @@
-# Cases for booster module external install
-The following files are 3D printable cases to allow installing externally the booster module and step-down module.
-All cases should be printed in ABS given its higher resistance to high temperatures compared to PLA
+# 3D-printable cases for external booster module installation
 
-## Additional components
-All cases need some additional hardware in order to be able to use them:
-- A velcro strap to tie the case to the drone (typically on top of the drone)
-- 2mm thick neoprene strips
-- A long enough female ipex4 to female ipex4 cable (10 or 15 cm should be enough, available on aliexpress)
-- a tiny bit of silicone to waterproof the tiny holes for the cables
+These cases let you mount the booster module and step-down module on the outside of the drone, typically velcroed to the top. Use them when there is no room to fit the booster internally.
 
-Plastic cases need the following additional hardware:
-- 4x threaded inserts M2x4x3.2
-- 4x screws M2x6
-- Heatsinks designed for Raspberry Pi (available on [aliexpress](https://www.aliexpress.com/item/1005007485448259.html) or [amazon](https://www.amazon.com/dp/B07YR6M6F6/))
-  - 4x heatsinks 14x14mm
-  - 1x heatsink 14x9mm
+All cases should be printed in ABS. It handles heat better than PLA, which matters here since the booster module generates real heat under load.
 
-## Cases available
+---
+
+## Requirements common to all cases
+
+- Velcro strap to attach the case to the drone
+- 2mm neoprene strips
+- Female IPEX4 to female IPEX4 cable, 10-15cm (available on AliExpress)
+- A small amount of silicone to seal the cable entry holes
+
+Plastic cases also need:
+- 4x M2x4x3.2 threaded inserts
+- 4x M2x6 screws
+- Raspberry Pi-style heatsinks (available on [AliExpress](https://www.aliexpress.com/item/1005007485448259.html) or [Amazon](https://www.amazon.com/dp/B07YR6M6F6/)):
+  - 4x 14x14mm heatsinks
+  - 1x 14x9mm heatsink
+
+---
+
+## Available cases
+
 ### Plastic case
-The most basic and simple solution: mostly designed for use with DJI Mini 2, but compatible will all drones.
 
-[Plastic case](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20plastic%20case_v3.stl)
+The simplest option. Designed primarily for the DJI Mini 2 but compatible with any drone.
+
+[Plastic case STL](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20plastic%20case_v3.stl)
 
 ![immagine](https://github.com/user-attachments/assets/c3276901-b6b7-48af-9ffa-fde8e1c11226)
 
-### Plastic case with battery
-If you don't want to solder anything to your drone, this is the solution.
+### Plastic case with built-in battery
 
-[Plastic case with battery](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20plastic%20case%20battery_v1.stl)
+If you do not want to solder anything to the drone, this is the option. The battery inside the case powers the booster independently.
 
-Additional components needed:
-- USB type C female connector with breakout board (available on [aliexpress](https://www.aliexpress.com/item/1005004861928502.html))
-- 403040 LiPo 3.7V (at least 500mAh) battery
+[Plastic case with battery STL](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20plastic%20case%20battery_v1.stl)
+
+Additional parts needed:
+- USB Type-C female breakout board (available on [AliExpress](https://www.aliexpress.com/item/1005004861928502.html))
+- 403040 LiPo 3.7V battery, at least 500mAh
 
 ![immagine](https://github.com/user-attachments/assets/46fcf1c1-53d0-4343-a430-d2a142426b7d)
 
 ### Aluminum case
-This case is probably the best solution as it is completely waterproof. However, it need to be CNC machined (or 3D printed in metal) which is more expensive.
-This case does not need any heatsink as it is already embedded in the case. However, you'll need thermal paste or glue to attach the board to the case itself.
 
-[Aluminum case](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20aluminum%20case_v2.stl)
+The most capable option. Fully waterproof, with the heatsink built into the case walls, so no separate heatsink is needed. It does need to be CNC machined or metal 3D printed, which costs more than plastic.
+
+Apply thermal paste or thermal adhesive to bond the booster board to the inside of the case.
+
+[Aluminum case STL](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20aluminum%20case_v2.stl)
 
 ![immagine](https://github.com/user-attachments/assets/0c993181-0589-4907-988d-66ec8918444a)

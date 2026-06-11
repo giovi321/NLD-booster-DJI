@@ -1,60 +1,77 @@
-# NLD-booster-DJI
-My approach to installing the No Limit Dronez booster board for DJI drones and remotes
+# NLD booster board installation guides for DJI drones and remote controllers
 
+Step-by-step guides for fitting a No Limit Dronez (NLD) signal booster board into various DJI drones and remote controllers. Each guide covers the wiring, placement, and physical modifications needed for that specific device.
 
-## ❗ Disclaimer ❗
-- Before proceeding, you must read the final section of this guide in its entirety
-- I am not affiliated with NoLimitDronez (NLD) or any of its associated entities, this guide is provided purely for informational purposes
-- Any modifications or actions you take based on this guide are entirely at your own risk. I hold no responsibility or liability for any damage, legal issues, or safety concerns that may arise from altering or using your devices in any way, including but not limited to hardware or software modifications
-- Ensure that you are fully aware of and comply with all local laws and regulations related to the use and modification of drones and similar devices
+---
+
+## Disclaimer
+
+- I am not affiliated with NoLimitDronez or any related entity. These guides are for informational purposes only.
+- Everything you do based on this information is entirely at your own risk. I take no responsibility for damage, legal issues, or safety problems resulting from following these guides or modifying your devices in any way.
+- Check your local laws before modifying or operating drones. In many jurisdictions, using a signal booster on a drone is regulated or prohibited.
+- Read the safety rules below before you open anything.
+
+---
+
+## Safety rules
+
+**Never power the booster without cooling.** In flight, the drone's airflow handles cooling automatically. On the bench there is no airflow, and the module will burn. Use a fan when bench testing.
+
+**Never power the module without both signal connections in place.** The antenna output and the signal input must both be connected before powering on.
+
+**Insulate every solder joint.** A bare joint shorting against the chassis at 120m altitude is not something you want to discover mid-flight.
+
+**Use the right adhesive.** Several steps require thermally conductive, electrically insulating silicone adhesive. Using the wrong material can cause heat buildup or shorts.
+
+**Handle IPEX connectors carefully, especially IPEX4.** They are very fragile and time-consuming to replace if damaged.
+
+---
 
 ## Available guides
 
 **Remote controllers**
-- [DJI RC2](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC2_and_RC.md) (applicable also to RC)
-- [DJI RC-N1](https://github.com/giovi321/NLD-booster-DJI/blob/main/RC-N1.md)
-
+- [DJI RC2](RC2_and_RC.md) (also applicable to the DJI RC)
+- [DJI RC-N1](RC-N1.md)
 
 **Drones**
-- [DJI Air 3](https://github.com/giovi321/NLD-booster-DJI/blob/main/Air_3.md)
-- [DJI Mini 4 Pro](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_4_Pro.md)
-- [DJI Mini 2](https://github.com/giovi321/NLD-booster-DJI/blob/main/Mini_2.md)
+- [DJI Air 3](Air_3.md)
+- [DJI Mini 4 Pro](Mini_4_Pro.md)
+- [DJI Mini 2](Mini_2.md)
 
-## 3D-printable cases for external installation
-If you don't have space to mount the booster board internally to your drone, you use one of the cases deigned specifically for this purpose.
+**3D-printable cases for external mounting**
+- [External installation cases](Cases%203D/readme.md) — use these if there is no room to fit the booster inside the drone
 
-[3D printable cases for NLD booster board](https://github.com/giovi321/NLD-booster-DJI/tree/main/Cases%203D)
+---
 
-# ❗ Some knowledge you should have before attempting the installation ❗
+## What comes in the NLD kit
 
-**DOs and DON'Ts before the installation:**
-- **DO NOT** power on the booster module without proper cooling (active or passive)
-  - When the drone is in flight, the airflow cools it down. When you are testing it, there is absolutely zero cooling (unless you use a fan) and this will burn the module.
-- **DO NOT** power on the module without input or output signal
-  - This means that when you test the booster module you MUST connect the antenna (output) and the signal from the drone or remote (input)
-- **DO** insulate all connections and solder joints
-  - You don't want to see your drone falling from 120m because you did not insulate properly a solder joint
-- **DO** make sure that you have all the right tools and consumables
-  - In the guides it is reported multiple times to use a good quality thermal conductive and electrically insulating glue
-- **DO** be very careful when handling ipex connectors (especially ipex4)
-  - These are extremely fragile and very paiful to replace
+When ordered for the devices covered in this repo, the kit contains:
 
-The NLD booster board kit comes with the following content, when ordered for the devices listed in this repository (other drones and remotes might require different connectors)
-- 1x booster board for the remote (with IPEX1 connectors)
-- 1x booster board for the drone (with IPEX4 connectors)
+- 1x booster board for the remote (IPEX1 connectors)
+- 1x booster board for the drone (IPEX4 connectors)
 - 1x IPEX1 cable
 - 1x IPEX4 cable
-- 1x step-up module (a tiny board that converts voltage from anything above 1 volt to 5 volts)
-- 1x step-down module (a tiny board that converts voltage from anything below 20v to 5 volts)
+- 1x step-up module (converts any voltage above 1V to 5V)
+- 1x step-down module (converts any voltage below 20V to 5V)
 
-The procedure is always the same, maybe I show it in different order but the steps are the following:
-1) Connect the step-up or step-down board to the booster board (just the positive and negative cables)
-2) Connect the step-up or step-down board to the battery of the device (aways connect directly to the battery or at least make sure that the pad you're connecting it to is dicrectly connected to the battery. That's because the PCB of the device, in the point you have randomly chosen, might give you the correct voltage but not enough power)
-3) Connect the EN pin of the step-up (or step-down) board to a 3.3-5.0 volt source that is turned ON only when the device is powered ON. We do this because we want the booster board to have power only when the device is turned on, and if we connect directly to the batteries we have constantly power. So the EN pin tells to the board "now it's time to enable your 5.0v output". Thi is typically needed on the RC only, but some drone batteries have different connection points (that could be always enabled) so we need the EN pin also on the drone.
-4) Connect the antenna of the device to the booster board on the connector marked with "ANT" (this is basically the signal "output")
-5) Connect the booster board signal input to the board of the drone or RC, this is the source of signal for the booster board which will boost the signal and transmit it to the output
+Other devices may need different connectors.
 
-# License
+---
+
+## How the installation works
+
+The procedure is the same across all devices, though the order and specific details vary by device:
+
+1. Solder the step-up or step-down board to the booster board (power connections only).
+2. Connect the step-up or step-down board directly to the device's battery. Direct battery connection matters because a random PCB pad might show the correct voltage but not supply enough current.
+3. Connect the EN pin of the step-up or step-down board to a 3.3-5V point that is only live when the device is powered on. This keeps the booster off when the device is off. On drones, this step is usually only needed if the battery connection point is always-on.
+4. Connect the device's antenna to the "ANT" connector on the booster board. This is the signal output.
+5. Connect the booster board's signal input to the drone or RC mainboard. This is the signal source the booster amplifies.
+
+---
+
+## License
+
 The content of this repository is licensed under the [WTFPL](http://www.wtfpl.net/).
 
 ```
