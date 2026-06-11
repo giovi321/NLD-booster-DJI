@@ -2,16 +2,12 @@
 
 Step-by-step guides for fitting a No Limit Dronez (NLD) signal booster board into various DJI drones and remote controllers. Each guide covers the wiring, placement, and physical modifications needed for that specific device.
 
----
-
 ## Disclaimer
 
 - I am not affiliated with NoLimitDronez or any related entity. These guides are for informational purposes only.
 - Everything you do based on this information is entirely at your own risk. I take no responsibility for damage, legal issues, or safety problems resulting from following these guides or modifying your devices in any way.
 - Check your local laws before modifying or operating drones. In many jurisdictions, using a signal booster on a drone is regulated or prohibited.
 - Read the safety rules below before you open anything.
-
----
 
 ## Safety rules
 
@@ -24,8 +20,6 @@ Step-by-step guides for fitting a No Limit Dronez (NLD) signal booster board int
 **Use the right adhesive.** Several steps require thermally conductive, electrically insulating silicone adhesive. Using the wrong material can cause heat buildup or shorts.
 
 **Handle IPEX connectors carefully, especially IPEX4.** They are very fragile and time-consuming to replace if damaged.
-
----
 
 ## Available guides
 
@@ -41,8 +35,6 @@ Step-by-step guides for fitting a No Limit Dronez (NLD) signal booster board int
 **3D-printable cases for external mounting**
 - [External installation cases](Cases%203D/readme.md) — use these if there is no room to fit the booster inside the drone
 
----
-
 ## What comes in the NLD kit
 
 When ordered for the devices covered in this repo, the kit contains:
@@ -56,8 +48,6 @@ When ordered for the devices covered in this repo, the kit contains:
 
 Other devices may need different connectors.
 
----
-
 ## How the installation works
 
 The procedure is the same across all devices, though the order and specific details vary by device:
@@ -67,8 +57,6 @@ The procedure is the same across all devices, though the order and specific deta
 3. Connect the EN pin of the step-up or step-down board to a 3.3-5V point that is only live when the device is powered on. This keeps the booster off when the device is off. On drones, this step is usually only needed if the battery connection point is always-on.
 4. Connect the device's antenna to the "ANT" connector on the booster board. This is the signal output.
 5. Connect the booster board's signal input to the drone or RC mainboard. This is the signal source the booster amplifies.
-
----
 
 ## License
 

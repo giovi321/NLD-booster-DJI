@@ -4,8 +4,6 @@ These cases let you mount the booster module and step-down module on the outside
 
 All cases should be printed in ABS. It handles heat better than PLA, which matters here since the booster module generates real heat under load.
 
----
-
 ## Requirements common to all cases
 
 - Velcro strap to attach the case to the drone
@@ -20,8 +18,6 @@ Plastic cases also need:
   - 4x 14x14mm heatsinks
   - 1x 14x9mm heatsink
 
----
-
 ## Available cases
 
 ### Plastic case
@@ -30,7 +26,7 @@ The simplest option. Designed primarily for the DJI Mini 2 but compatible with a
 
 [Plastic case STL](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20plastic%20case_v3.stl)
 
-![immagine](https://github.com/user-attachments/assets/c3276901-b6b7-48af-9ffa-fde8e1c11226)
+<img src="https://github.com/user-attachments/assets/c3276901-b6b7-48af-9ffa-fde8e1c11226" width="600">
 
 ### Plastic case with built-in battery
 
@@ -42,7 +38,7 @@ Additional parts needed:
 - USB Type-C female breakout board (available on [AliExpress](https://www.aliexpress.com/item/1005004861928502.html))
 - 403040 LiPo 3.7V battery, at least 500mAh
 
-![immagine](https://github.com/user-attachments/assets/46fcf1c1-53d0-4343-a430-d2a142426b7d)
+<img src="https://github.com/user-attachments/assets/46fcf1c1-53d0-4343-a430-d2a142426b7d" width="600">
 
 ### Aluminum case
 
@@ -52,4 +48,4 @@ Apply thermal paste or thermal adhesive to bond the booster board to the inside 
 
 [Aluminum case STL](https://github.com/giovi321/NLD-booster-DJI/blob/main/Cases%203D/NLD%20booster%20board%20aluminum%20case_v2.stl)
 
-![immagine](https://github.com/user-attachments/assets/0c993181-0589-4907-988d-66ec8918444a)
+<img src="https://github.com/user-attachments/assets/0c993181-0589-4907-988d-66ec8918444a" width="600">
